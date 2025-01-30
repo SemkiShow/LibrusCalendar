@@ -10,3 +10,4 @@ cp librus.service /etc/systemd/system
 systemctl daemon-reload
 systemctl enable librus.service
 systemctl start librus.service
+sudo systemctl status librus.service

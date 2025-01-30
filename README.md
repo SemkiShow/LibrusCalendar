@@ -13,5 +13,4 @@ Note: if steps 1-4 aren't clear, you can [follow the official tutorial](https://
 ```bash
 chmod +x install.sh
 sudo ./install.sh
-sudo systemctl status librus.service
 ```
