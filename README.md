@@ -1,7 +1,7 @@
 # Librus Calendar
 An application for automatically adding upcoming tests from Librus to Google Calendar
 
-# Linux installation
+## Linux installation
 - **Step 0** Install Python 3.10.7 or greater and pip
 
 Note: if steps 1-4 aren't clear, you can [follow the official tutorial](https://developers.google.com/calendar/api/quickstart/python), stopping on installing pip packages
