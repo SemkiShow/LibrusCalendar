@@ -1,0 +1,14 @@
+[Unit]
+Description=Librus calendar service
+After=network-online.target
+StartLimitIntervalSec=1
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+User=semkishow
+ExecStart=/usr/local/bin/LibrusCalendar/run.sh
+
+[Install]
+WantedBy=multi-user.target
